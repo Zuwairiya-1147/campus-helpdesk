@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Point this at your deployed backend URL in production (e.g. Render).
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://campus-helpdesk-backend-380g.onrender.com/";
 
 const client = axios.create({ baseURL: `${BASE_URL}/api` });
 
